@@ -219,7 +219,7 @@ def editEmp():
         new_Job = input("Current Job/Position ==> ")
         emp_Details.append(new_Job)
         
-        new_Pay = float(input("Payrate ==> "))
+        new_Pay = int(input("Payrate ==> "))
         emp_Details.append(new_Pay)
         
         new_Depend = input("Does the employee have dependents? [y or n] ==> ")
