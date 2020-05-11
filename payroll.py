@@ -257,8 +257,11 @@ def editEmp():
             print("Occupation:         {}\n".format(new_Job))
             print("Payrate:            {}\n".format(new_Pay))
             print("Dependents:         {}\n".format(new_Depend))
-            print("Medical Allowance   {}\n".format(new_Med))
-            print("HRA                 {}\n".format(new_Hra))
+            print("Medical Allowance:  {}\n".format(new_Med))
+            print("HRA:                {}\n".format(new_Hra))
+            print("Hostel:             {}\n".format(new_Hostel))
+            print("Bus:                {}\n".format(new_Bus))
+            
 
             
             employee_Confirm = input("Is this information correct? [y = yes, n = no] ==> ")
